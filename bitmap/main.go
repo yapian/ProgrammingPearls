@@ -9,7 +9,7 @@ import (
 type BitSet []uint64
 
 const (
-	Address_Bits_Per_Word uint8  = 6
+	Address_Bits_Per_Word uint8  = 6  // 6 * 8 = 64
 	Words_Per_Size        uint64 = 64 //单字64位
 )
 
